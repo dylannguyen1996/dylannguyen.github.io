@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0 150px;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-color: #1D1D1D;
+    color: #fff;
+}
+
+
+.homepage {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.square1, .square2 {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: #1D1D1D;
+    border: 1px solid #818181;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    transition: transform 1s ease-in-out;
+}
+
+.square2 {
+    right: 0;
+}
+
+.homepage_introduce{
+    display: flex;
+    padding: 0 100px;
+    flex-direction: column;
+}
+
+.introduce_detail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 63px;
+    justify-content: space-between;
+}
+
+.introduce_detail-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 134px;
+}
+
+.introduce_detail-text h1 {
+    font-size: 84px;
+}
+
+.introduce_detail-text p {
+    margin-top: 196px;
+    font-size: 18px;
+}
+
+.homepage_service {
+    text-align: center;
+    margin: 500px 0;
+}
+
+.content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage_service h1 {
+    font-size: 200px;
+}
+
+
+.homepage_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 500px;
+}
+
+.list_big {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.list_big h1 {
+    font-size: 100px;
+    font-weight: 400;
+    margin-right: 70px;
+    margin-bottom: 0;
+}
+
+.list_small {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.category {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 18px 18px 0;
+}
+
+.category p {
+    margin: 0;
+    padding: 12px 24px;
+}
+
+.homepage_project {
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+
+.homepage_project h1 {
+    font-size: 200px;
+}
+
+.cursor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: none;
+    text-align: center;
+    width: 10%;
+    z-index: 999;
+    border-radius: 50px;
+    padding: 12px 24px;
+    background-color: #717171;
+    display: none;
+    /* opacity: 0; */
+}
+
+.homepage_carquardian {
+    cursor: none;
+    width: 100%;
+    margin-bottom: 500px;
+    position: relative;
+}
+
+.homepage_carquardian:hover .cursor {
+    display: block;
+}
+
+.card-detail {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    cursor: none;
+}
+
+.card-detail h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.card-detail p {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.homepage_contact {
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.homepage_contact h1{
+    font-size: 200px;
+}
+
+.homepage_contact-mess {
+    padding-bottom: 100px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 92px;
+}
+
+.title h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.contact-email {
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+.my-email {
+    font-size: 28px;
+    color: #686B7A;
+}
+
+.name-email {
+    font-size: 48px;
+}
+
+#mr-1 {
+    margin: 31px 0 60px 0;
+    font-size: 84px;
+}
+
+.socail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socail h1 {
+    font-size: 36px;
+}
+
+.mail-and-menu {
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    right: 150px;
+    margin: 0;
+}
+
+.mail {
+    border-radius: 100px;
+    background-color: #fff;
+    color: #1D1D1D;
+    border: none;
+}
+
+.mail p {
+    margin: 0;
+    padding: 12px 30px;
+}
+
+.menu {
+    border-radius: 100px;
+    margin-left: 18px;
+    background-color: #1D1D1D;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.menu p {
+    margin: 0;
+    padding: 12px 24px;
+}
+
+
+/* WORK DETAIL PAGE */
+.detail-page {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.crm {
+    border-radius: 100px;
+    margin-left: 18px;
+    background-color: #1D1D1D;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+.mobile-app {
+    border-radius: 100px;
+    margin-left: 18px;
+    background-color: #1D1D1D;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 24px;
+}
+
+.background-thumbnail {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.thumbnail {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    background-color: #D1D1D1;
+    margin-right: 100px;
+}
+
+.thumbnail img {
+    padding: 40px 0;
+    width: 30%;
+}
+
+.resour_zoomin {
+    margin: 500px 0;
+}
+
+.thumbnail-zoomin {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-zoomin img {
+    padding: 60px 80px;
+    width: 30%;
+}
+
+.story_challenge {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 200px;
+}
+
+
+.story {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.story-text h1 {
+    font-size: 68px;
+    margin-bottom: 50px;
+}
+
+.challenge-text h1 {
+    font-size: 68px;
+    margin-bottom: 50px;
+}
+
+.challenge {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.visual-desgin {
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.visual-desgin h1{
+    font-size: 200px;
+}
+
+.visual-design-theme {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visual-design-theme img {
+    width: 20%;
+}
+
+.visual-design-theme {
+    margin-bottom: 500px;
+}
+
+.next-project {
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.next-project h1 {
+    font-size: 200px;
+}
+
+
+
+
+.back-and-menu {
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    right: 150px;
+    margin: 0;
+}
+
+.back {
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fff;
+    color: #1D1D1D;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.fa-arrow-left {
+    padding-left: 30px;
+    color: #1D1D1D;
+}
+
+.back p {
+    margin: 0;
+    padding: 12px 30px 12px 10px;
+}
